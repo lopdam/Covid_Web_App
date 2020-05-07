@@ -291,6 +291,21 @@ Content
     justify-content: center;
 }
 
+.actual {
+    background-color: var(--primary-color);
+    width: 6vh;
+    height: 5vh;
+    border-radius: 5px;
+}
+
+.actual i {
+    color: white;
+}
+
+.actual .textIcon {
+    color: white;
+}
+
 @media(orientation: landscape) {
     .mainContainer {
         width: 100vw;
@@ -530,5 +545,11 @@ Content
         flex-direction: column;
         justify-content: space-around;
     }
-   
+    .actual {
+        border-radius: 10px;
+        margin-left: 5px;
+        width: auto;
+        height: auto;
+        margin-right: 5px;
+    }
 }

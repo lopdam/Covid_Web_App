@@ -1,0 +1,10 @@
+:root {
+    --primary-color: #473F97;
+    --font-family: 'Noto Sans', sans-serif;
+}
+
+.back {
+    height: 6vh;
+    width: 100vw;
+    background-color: var(--primary-color);
+}
